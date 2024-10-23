@@ -1,0 +1,78 @@
+body{
+    display: block;
+
+    background-color: black;
+}
+
+header{
+    border-bottom: 5px solid goldenrod;
+    font-style:italic;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    color: gold;
+}
+
+.chamada {
+    background: gold;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    border-bottom: 5px solid goldenrod;
+    font-style:italic;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+div{
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+section{
+    color: black;
+    background-color: gold;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(0, 0, 0);
+}
